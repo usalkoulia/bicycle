@@ -2,21 +2,137 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Демо-страница</title>
-    <link rel="preload" href="fonts/oswaldmedium.woff2" as="font">
-    <link rel="preload" href="fonts/oswaldregular.woff2" as="font">
+    <title>Bicycle company</title>
     <link rel="stylesheet" href="css/style.min.css">
     <script src="js/picturefill.min.js" async></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div style="display: none">
-      <include src="build/img/sprite.svg"></include>
-    </div>
+    <header class="header">
+      <div class="header__centering">
+        <a class="header__logo" href="#" aria-label="Bicycle company logo">
+          <img src="img/logo-main.png" alt="Bicycle company logo">
+        </a>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">About us</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Work</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Shop</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <main>
-      main
+      <section class="hero">
+        <h1 class="visually-hidden">Main content</h1>
+      </section>
+
+      <section class="content">
+        <div class="content__centering">
+          <h2 class="content__title title">A new generation of vintage bike</h2>
+          <p class="content__text text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </section>
+
+      <section class="bikes">
+        <div class="bikes__centering">
+          <h2 class="visually-hidden"></h2>
+          <ul>
+            <li>
+              <div class="">
+                <h3></h3>
+                <p></p>
+              </div>
+              <img src="" alt="">
+              <img src="" alt="">
+            </li>
+            <li>
+              <div class="">
+                <h3></h3>
+                <p></p>
+              </div>
+              <img src="" alt="">
+              <img src="" alt="">
+            </li>
+            <li>
+              <div class="">
+                <h3></h3>
+                <p></p>
+              </div>
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="slider">
+        <h2></h2>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery__centering">
+          <h2></h2>
+          <div class="gallery__list">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+      </section>
+
+      <section class="shop">
+        <div class="shop__centering">
+          <h2></h2>
+          <a href="#" aria-label="link to bike shop">Discover the shop</a>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <div class="feedback__centering">
+          <h2></h2>
+          <form class="" action="index.html" method="post">
+            <input type="text" name="" placeholder="enter your email... ">
+            <button type="submit" name="button">Go</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__centering">
+          <div class="footer__address">
+            <p>AOD New York</p>
+            <p>2250 Lexington Avenue</p>
+            <p>New York, NY 10035  - info@domain.com</p>
+          </div>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#" aria-label="Bicycle company in twitter"></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#" aria-label="Bicycle company in facebook"></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#" aria-label="Bicycle company in pinterest"></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </main>
-    <include src="source/_footer.html"></include>
     <script src="js/main.js"></script>
   </body>
 </html>
