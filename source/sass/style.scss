@@ -3,6 +3,14 @@
 @import "mixins";
 @import "centering";
 @import "visually-hidden";
+@import "title";
+@import "text";
+@import "navigation";
+@import "bikes";
+
+body {
+  font-family: "Lato", arial, sans-serif;
+}
 
 img {
   max-width: 100%;
