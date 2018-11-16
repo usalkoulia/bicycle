@@ -1,0 +1,16 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__centering {
+  @include desktop-centering;
+  text-align: center;
+  position: relative;
+}
+
+.header__logo {
+  margin-top: 30px;
+}

@@ -1,0 +1,37 @@
+.footer {
+  background-color: $secondary-bg-color;
+}
+
+.footer__centering {
+  @include desktop-centering;
+  padding: 95px 240px;
+  display: flex;
+}
+
+.footer__address {
+  width: 33.3333%;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: $secondary-font-color;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 2px;
+
+  &:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: center;
+  width: 33.3333%;
+}
+
+.footer__social-item:not(:last-child) {
+  margin-right: 15px;
+}

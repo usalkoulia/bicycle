@@ -1,20 +1,32 @@
 @import "variables";
-@import "fonts";
 @import "mixins";
 @import "centering";
 @import "visually-hidden";
 @import "title";
 @import "text";
+@import "logo";
+@import "header";
 @import "navigation";
+@import "hero";
+@import "content";
 @import "bikes";
+@import "gallery";
+@import "shop";
+@import "feedback";
+@import "footer";
 
 body {
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
+  background-color: $primary-bg-color;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+ul {
+  list-style-type: none;
 }
 
 *,

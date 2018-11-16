@@ -1,0 +1,20 @@
+.shop {
+  background-color: $third-bg-color;
+  padding: 75px;
+}
+
+.shop__centering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop__link {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border: 1px solid #94979a;
+  padding: 20px 65px;
+}
