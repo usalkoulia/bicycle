@@ -11,10 +11,26 @@
   width: 10%;
   position: relative;
 
+  &:first-child,
+  &:last-child {
+    &::after {
+      content: "";
+      width: 2px;
+      height: 2px;
+      background-color: $third-font-color;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
   &:nth-child(1) {
     margin-left: 20%;
     margin-right: 60px;
     text-align: left;
+
+    &::after {
+      right: 10%;
+    }
   }
 
   &:nth-child(2) {
@@ -30,17 +46,9 @@
     margin-right: 20%;
     margin-left: 60px;
     text-align: right;
-  }
 
-  &:nth-child(even) {
     &::after {
-      content: "";
-      width: 2px;
-      height: 2px;
-      background-color: $third-font-color;
-      position: absolute;
-      left: -50%;
-      bottom: 0;
+      left: 10%;
     }
   }
 }
