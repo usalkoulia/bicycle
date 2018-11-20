@@ -89,7 +89,7 @@
   position: relative;
   padding: 100px 35px 90px 35px;
 
-// трегуольник
+  // трегуольник
   &::after {
     content: "";
     position: absolute;
@@ -115,7 +115,7 @@
 .bikes__image-wrapper {
   position: relative;
 
-// иконка на изображении
+  // иконка на изображении
   &::after {
     content: "";
     position: absolute;
@@ -151,7 +151,7 @@
   line-height: 30px;
   position: relative;
 
-// полосочка
+  // полосочка
   &::after {
     content: "";
     position: absolute;

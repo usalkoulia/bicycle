@@ -4,6 +4,7 @@
 }
 
 .shop__centering {
+  @include desktop-centering;
   display: flex;
   align-items: center;
   justify-content: center;

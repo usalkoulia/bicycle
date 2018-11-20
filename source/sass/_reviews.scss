@@ -3,11 +3,17 @@
 }
 
 .reviews__centering {
-  padding: 150px;
+  @include desktop-centering;
+  padding: 150px 150px 50px 150px;
+}
+
+.reviews__slider {
+  margin-bottom: 90px;
 }
 
 .reviews__slide {
   text-align: center;
+  padding-top: 60px;
 }
 
 .reviews__title {
@@ -27,8 +33,7 @@
 }
 
 .reviews__buttons {
-  display: block;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .reviews__button {

@@ -1,4 +1,5 @@
 .feedback__centering {
+  @include desktop-centering;
   padding: 100px;
   padding-top: 220px;
   position: relative;
