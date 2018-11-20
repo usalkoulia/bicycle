@@ -68,26 +68,40 @@
   display: block;
   position: relative;
 
+  // &::after {
+  //   content: "Shop now";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   background-color: $primary-color;
+  //   background-image: url("../img/logo-bicycle-little.png");
+  //   background-repeat: no-repeat;
+  //   background-position: center 35%;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   font-size: 14px;
+  //   font-weight: 700;
+  //   text-transform: uppercase;
+  //   color: #ffffff;
+  //   letter-spacing: 2px;
+  //   text-align: center;
+  //   opacity: 0;
+  // }
+
   &::after {
-    content: "Shop now";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: $primary-color;
-    background-image: url("../img/logo-bicycle-little.png");
+    background-image: url("../img/shop-now.png");
     background-repeat: no-repeat;
-    background-position: center 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ffffff;
-    letter-spacing: 2px;
-    text-align: center;
+    background-position: center;
     opacity: 0;
   }
 
