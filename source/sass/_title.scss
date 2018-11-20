@@ -9,16 +9,37 @@
   &::before {
     content: "";
     width: 54px;
-    height: 50px;
+    height: 54px;
     position: absolute;
-    top: -70px;
-    left: calc(50% - 27px);
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   &--logo-content {
     &::before {
+      top: -70px;
       background-image: url("../img/icon-1.png");
-      background-repeat: no-repeat;
+    }
+  }
+
+  &--logo-oliva {
+    &::before {
+      background-image: url("../img/icon-2.png");
+    }
+  }
+
+  &--logo-boriosa {
+    &::before {
+      background-image: url("../img/icon-3.png");
+    }
+  }
+
+  &--logo-hulot {
+    &::before {
+      background-image: url("../img/icon-4.png");
     }
   }
 }
