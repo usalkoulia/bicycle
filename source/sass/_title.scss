@@ -12,10 +12,8 @@
     height: 54px;
     position: absolute;
     top: -60px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: calc(50% - 27px);
     background-repeat: no-repeat;
-    background-size: contain;
   }
 
   &--logo-content {
@@ -40,6 +38,12 @@
   &--logo-hulot {
     &::before {
       background-image: url("../img/icon-4.png");
+    }
+  }
+
+  &--logo-twitter {
+    &::before {
+      background-image: url("../img/icon-twitter.png");
     }
   }
 }
