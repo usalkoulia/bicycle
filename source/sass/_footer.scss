@@ -3,12 +3,14 @@
 }
 
 .footer__centering {
-  @include desktop-centering;
-  padding: 95px 240px;
+  padding: 100px 50px;
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer__address {
+  margin-bottom: 30px;
   width: 33.3333%;
 }
 
@@ -34,9 +36,17 @@
 .footer__social-list {
   display: flex;
   justify-content: center;
+  align-items: baseline;
   width: 33.3333%;
 }
 
 .footer__social-item:not(:last-child) {
   margin-right: 15px;
+}
+
+@media (min-width: $desktop-min-width) {
+  .footer__centering {
+    @include desktop-centering;
+    padding: 95px 240px;
+  }
 }

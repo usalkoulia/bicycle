@@ -4,7 +4,7 @@
 }
 
 .navigation__item {
-  width: 10%;
+  width: 15%;
   position: relative;
 
   &:first-child,
@@ -20,12 +20,12 @@
   }
 
   &:nth-child(1) {
-    margin-left: 20%;
+    margin-left: 5em;
     margin-right: 60px;
     text-align: left;
 
     &::after {
-      right: 10%;
+      right: -1em;
     }
   }
 
@@ -39,12 +39,12 @@
   }
 
   &:nth-child(4) {
-    margin-right: 20%;
+    margin-right: 5em;
     margin-left: 60px;
     text-align: right;
 
     &::after {
-      left: 10%;
+      left: -1em;
     }
   }
 }
@@ -55,4 +55,28 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
+}
+
+@media (min-width: $desktop-min-width) {
+  .navigation__list {
+    padding: 60px 150px;
+  }
+
+  .navigation__item {
+    &:nth-child(1) {
+      margin-left: 20%;
+
+      &::after {
+        right: 10%;
+      }
+    }
+
+    &:nth-child(4) {
+      margin-right: 20%;
+
+      &::after {
+        left: 10%;
+      }
+    }
+  }
 }

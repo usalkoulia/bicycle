@@ -3,12 +3,11 @@
 }
 
 .reviews__centering {
-  @include desktop-centering;
-  padding: 150px 150px 50px 150px;
+  padding: 100px 150px 50px 150px;
 }
 
 .reviews__slider {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 
 .reviews__slide {
@@ -47,5 +46,16 @@
 
   &--active {
     background-color: #a9afb3;
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  .reviews__centering {
+    @include desktop-centering;
+    padding: 150px 150px 50px 150px;
+  }
+
+  .reviews__slider {
+    margin-bottom: 90px;
   }
 }
