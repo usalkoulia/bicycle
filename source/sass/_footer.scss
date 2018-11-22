@@ -51,7 +51,7 @@
   margin-right: 15px;
 }
 
-@media (min-width: $tablet-min-width) {
+@media (min-width: $medium-min-width) {
   .footer__centering {
     padding: 95px 150px;
     flex-direction: row;
@@ -70,9 +70,21 @@
   }
 }
 
-@media (min-width: $desktop-min-width) {
+@media (min-width: $large-min-width) {
   .footer__centering {
     @include desktop-centering;
     padding: 95px 100px;
+  }
+
+  .footer__text {
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .footer__social-item {
+    :hover {
+      opacity: 0.8;
+    }
   }
 }

@@ -11,13 +11,13 @@
   margin-bottom: 20px;
 }
 
-@media (min-width: $tablet-min-width) {
+@media (min-width: $medium-min-width) {
   .content__centering {
     padding: 100px 50px;
   }
 }
 
-@media (min-width: $desktop-min-width) {
+@media (min-width: $large-min-width) {
   .content__centering {
     @include desktop-centering;
     padding: 170px 100px 120px 100px;

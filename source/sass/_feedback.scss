@@ -68,7 +68,7 @@
   }
 }
 
-@media (min-width: $tablet-min-width) {
+@media (min-width: $medium-min-width) {
   .feedback__centering {
     padding: 100px;
     padding-top: 220px;
@@ -79,7 +79,7 @@
   }
 }
 
-@media (min-width: $desktop-min-width) {
+@media (min-width: $large-min-width) {
   .feedback__centering {
     @include desktop-centering;
   }

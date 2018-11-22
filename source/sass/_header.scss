@@ -6,11 +6,16 @@
 }
 
 .header__centering {
-  @include desktop-centering;
   text-align: center;
   position: relative;
 }
 
 .header__logo {
   margin-top: 30px;
+}
+
+@media (min-width: $large-min-width) {
+  .header__centering {
+    @include desktop-centering;
+  }
 }

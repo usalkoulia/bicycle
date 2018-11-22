@@ -49,7 +49,7 @@
   }
 }
 
-@media (min-width: $desktop-min-width) {
+@media (min-width: $large-min-width) {
   .reviews__centering {
     @include desktop-centering;
     padding: 150px 150px 50px 150px;

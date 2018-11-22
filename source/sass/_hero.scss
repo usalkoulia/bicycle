@@ -1,7 +1,11 @@
 .hero {
   background-color: #e1e1ec;
   background-image: url("../img/hero.jpg");
-  background-position: center;
+  background-position: top center;
   background-size: cover;
+  min-height: 600px;
+}
+
+@media (min-width: $small-min-width) {
   min-height: 800px;
 }
