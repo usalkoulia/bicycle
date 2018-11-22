@@ -3,7 +3,7 @@
 }
 
 .reviews__centering {
-  padding: 100px 150px 50px 150px;
+  padding: 50px 20px;
 }
 
 .reviews__slider {
@@ -20,13 +20,14 @@
   text-transform: none;
 
   span {
+    display: inline-block;
     font-weight: 200;
     color: $secondary-font-color;
   }
 }
 
 .reviews__text {
-  font-size: 24px;
+  font-size: 18px;
   font-style: italic;
   color: $secondary-font-color;
 }
@@ -46,6 +47,16 @@
 
   &--active {
     background-color: #a9afb3;
+  }
+}
+
+@media (min-width: $medium-min-width) {
+  .reviews__centering {
+    padding: 100px 150px 50px 150px;
+  }
+
+  .reviews__text {
+    font-size: 24px;
   }
 }
 

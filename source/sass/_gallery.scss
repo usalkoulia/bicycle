@@ -50,6 +50,7 @@
   display: block;
   position: relative;
   outline: none;
+  transition: 0.3s;
 
   &::after {
     content: "";
@@ -63,6 +64,8 @@
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0;
+    transition: 0.4s;
+    transition-timing-function: ease;
   }
 
   &:hover,
