@@ -1,6 +1,13 @@
 .text {
-  font-size: 18px;
+  font-size: 16px;
   color: $secondary-font-color;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 30px;
+}
+
+@media (min-width: $tablet-min-width) {
+  .text {
+    font-size: 18px;
+    line-height: 34px;
+  }
 }

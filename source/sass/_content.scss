@@ -4,16 +4,22 @@
 
 .content__centering {
   text-align: center;
-  padding: 100px 50px;
+  padding: 100px 20px;
 }
 
 .content__title {
   margin-bottom: 20px;
 }
 
+@media (min-width: $tablet-min-width) {
+  .content__centering {
+    padding: 100px 50px;
+  }
+}
+
 @media (min-width: $desktop-min-width) {
   .content__centering {
     @include desktop-centering;
-    padding: 170px 200px 100px 200px;
+    padding: 170px 100px 120px 100px;
   }
 }

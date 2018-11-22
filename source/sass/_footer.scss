@@ -73,6 +73,6 @@
 @media (min-width: $desktop-min-width) {
   .footer__centering {
     @include desktop-centering;
-    padding: 95px 240px;
+    padding: 95px 100px;
   }
 }

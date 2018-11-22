@@ -80,7 +80,7 @@
   object-fit: cover;
 }
 
-@media (min-width: $tablet-min-width) {
+@media (min-width: 550px) {
   .gallery__list {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -129,7 +129,7 @@
   }
 }
 
-@media (min-width: $desktop-min-width) {
+@media (min-width: $tablet-min-width) {
   .gallery__list {
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto auto;
