@@ -118,6 +118,7 @@
       }
 
       *:nth-child(3) {
+        display: grid;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
       }
