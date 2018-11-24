@@ -234,6 +234,7 @@
       grid-column: 1 / 3;
       grid-row: 2 / 3; }
     .bikes__item--oliva *:nth-child(3) {
+      display: grid;
       grid-column: 1 / 2;
       grid-row: 1 / 2; }
     .bikes__item--boriosa *:nth-child(1) {
