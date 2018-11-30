@@ -32,3 +32,8 @@ Siema.prototype.addPagination = function() {
 
 // Trigger pagination creator
 mySiema.addPagination();
+
+
+// плавная прокрутка
+
+new SmoothScroll("a[href*='#']");
